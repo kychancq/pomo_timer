@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 3rem 5rem;
+  background-color: rgba(255, 255,255, 0.2);
+  backdrop-filter: blur(15px);
+  border: 1px solid #ffffff33;
+  border-radius: 3rem;
+}
+
+.timer_label {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  line-height: 6rem;
+  margin: 1rem 0;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.label {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 2px solid #fff;
+}
